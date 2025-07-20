@@ -24,7 +24,7 @@ const accommodationTypes = [
 
 const Header: React.FC = () => {
     return (
-        <header className="w-full bg-white shadow">
+        <header className="w-full bg-white shadow-xs">
             {/* Top info bar */}
             <div className="bg-teal-600 text-white flex items-center justify-center py-2 text-sm">
                 <span className="mr-2">👜</span>
@@ -41,8 +41,8 @@ const Header: React.FC = () => {
                     <Image
                         src="/assets/Logp Showcase.png"
                         alt="Logo"
-                        width={40}
-                        height={40}
+                        width={58.73}
+                        height={30.6}
                         className="mr-2"
                     />
                 </div>
@@ -50,42 +50,42 @@ const Header: React.FC = () => {
                 {/* Search bar */}
                 <form className="flex items-center justify-between bg-white rounded-full shadow-lg px-3 py-2 w-full max-w-4xl mx-auto border border-gray-200">
                     <div className="flex flex-col px-3">
-                        <label htmlFor="location" className="text-gray-500 text-xs mb-1">Location</label>
+                        <label htmlFor="location" className="text-gray-800 font-semibold text-sm mb-1">Location</label>
                         <input
                             id="location"
                             type="text"
                             placeholder="Search destinations"
-                            className="bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"
+                            className="bg-transparent text-xs text-gray-700 placeholder-gray-300 outline-none"
                         />
                     </div>
                     <span className="text-gray-300">|</span>
                     <div className="flex flex-col px-3">
-                        <label htmlFor="checkin" className="text-gray-500 text-xs mb-1">Check in</label>
+                        <label htmlFor="checkin" className="text-gray-800 font-semibold text-sm mb-1">Check in</label>
                         <input
                             id="checkin"
                             type="text"
                             placeholder="Add date"
-                            className="bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"
+                            className="bg-transparent text-xs text-gray-700 placeholder-gray-300 outline-none"
                         />
                     </div>
                     <span className="text-gray-300">|</span>
                     <div className="flex flex-col px-3">
-                        <label htmlFor="checkout" className="text-gray-500 text-xs mb-1">Check out</label>
+                        <label htmlFor="checkout" className="text-gray-800 font-semibold text-sm mb-1">Check out</label>
                         <input
                             id="checkout"
                             type="text"
                             placeholder="Add date"
-                            className="bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"
+                            className="bg-transparent text-xs text-gray-700 placeholder-gray-300 outline-none"
                         />
                     </div>
                     <span className="text-gray-300">|</span>
                     <div className="flex flex-col px-3">
-                        <label htmlFor="guests" className="text-gray-500 text-xs mb-1">Guests</label>
+                        <label htmlFor="guests" className="text-gray-800 font-semibold text-sm mb-1">Guests</label>
                         <input
                             id="guests"
                             type="text"
                             placeholder="Add guests"
-                            className="bg-transparent text-sm text-gray-700 placeholder-gray-400 outline-none"
+                            className="bg-transparent text-xs text-gray-700 placeholder-gray-300 outline-none"
                         />
                     </div>
                     {/* Search button */}

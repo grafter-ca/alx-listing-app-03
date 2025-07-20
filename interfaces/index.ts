@@ -12,6 +12,13 @@ export interface ButtonProps {
   variant?: "primary" | "secondary";
 }
 
+export interface PROPERTYLISTINGSAMPLEProps {
+  image: string;
+  rating:number;
+  name:string;
+  price:number;
+}
+
 export interface PropertyProps {
   name: string;
   address: {
